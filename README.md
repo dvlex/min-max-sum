@@ -22,6 +22,8 @@ To run this devcontainer, you need:
 ### Usage
 
 Open this repository in VSCode (in CLI, open the repo folder and type `code .`). Press Ctrl + Shift + P, and type "Reopen in Container" to enter the devcontainer. Once inside the devcontainer, navigate to the file `Program.cs` and run it using the play button above.
+![image](https://github.com/user-attachments/assets/be3f28fa-b04f-4515-b8b9-5c9be0158cd6)
+
 
 ### Challenge
 
@@ -84,4 +86,5 @@ Hints: Beware of integer overflow! Use a 64-bit integer.
 Reading the challenge, I found that the first step is to sort the list. This allows summing the first four elements, which are the lowest values, and summing the last four elements, which are the highest values, to obtain both the minimum and maximum sums possible. Finally, display the two results. Initially, I used the data type `int`, but this failed some tests on the HackerRank server. I then noticed that the constraints include array elements ranging from 1 to 10^9, which means a 32-bit integer might not suffice. Therefore, I used a 64-bit integer, and this worked perfectly when submitted to HackerRank.
 
 ### Evidence
+![image](https://github.com/user-attachments/assets/5d4b462b-504b-46b2-98fb-474e9d61c9f0)
 

@@ -50,3 +50,5 @@ ScaffoldingReadMe.txt
 .idea/libraries
 .idea/.rider.js
 .idea/.rider.xml
+
+.fake
